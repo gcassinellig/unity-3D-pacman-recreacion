@@ -9,6 +9,14 @@ public class TeleportManager : MonoBehaviour {
 	public Transform nuevaposicion;
 
 	void OnTriggerEnter(Collider other) {
-		other.transform.position = nuevaposicion.transform.position;
+		if (other.gameObject.tag == "Player") {
+			CharacterController characterController = other.GetComponent<CharacterController>();
+			characterController.enabled = false;		//desactivar para mover
+			other.transform.position = nuevaposicion.position;
+			characterController.enabled = true;			//reactivar
+		} else {
+			NavMeshAgent navagent = other.GetComponent<NavMeshAgent>();
+			navagent.Warp(nuevaposicion.position);
+		}
 	}
 }
