@@ -1,8 +1,8 @@
 # --- carpetas temporales y generadas por Unity ---
 /[Ll]ibrary/
-/Logs/
-/Temp/
-/UserSettings/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Tt]emp/
 /[Oo]bj/
 /[Bb]uild/
 /[Bb]uilds/
