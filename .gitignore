@@ -1,0 +1,35 @@
+# --- carpetas temporales y generadas por Unity ---
+/[Ll]ibrary/
+/[尝]ogs/
+/Temp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Mm]emoryCaptures/
+/[Mm]emoryLogs/
+
+# --- archivos de configuración del editor ---
+/[As]setLabels.assets
+/Assets/AssetStoreTools*
+
+# --- archivos generados por el editor de código (VS / VS Code) ---
+.vs/
+ExportedObj/
+.consulo/
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.opendb
+*.VC.db
+
+# --- archivos del sistema operativo ---
+.DS_Store
+Thumbs.db
