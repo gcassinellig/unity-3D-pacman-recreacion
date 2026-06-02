@@ -1,5 +1,9 @@
 # Unity 3D - Recreación de Pac-Man
 
+![Vista del Laberinto y Personajes en el Editor](Media/screenshot1.png)
+
+![Vista del Juego en Acción](Media/screenshot2.png)
+
 > ⚠️ **IMPORTANTE:** Este proyecto fue desarrollado únicamente con fines académicos y de aprendizaje en el año 2022. "Pac-Man" y sus conceptos originales son propiedad intelectual de Bandai Namco Entertainment. Esta es una recreación interactiva sin fines comerciales creada para demostrar habilidades de lógica y programación en Unity.
 
 Esta es una recreación interactiva en 3D del clásico juego de arcade Pac-Man, desarrollada originalmente a mediados de 2022 utilizando el motor de desarrollo Unity. El proyecto traslada la experiencia clásica bidimensional a un entorno 3D en primera persona, recreando las mecánicas básicas de juego.
